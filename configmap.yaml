@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  Key1: teste
+  Key2: nadegas
+kind: ConfigMap
+metadata:
+  name: teste-cmap
