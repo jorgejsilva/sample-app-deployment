@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: jorgejsilva/block-buster-dev:7.8.0
+          image: jorgejsilva/block-buster-dev:7.8.0 # {"$imagepolicy": "flux-system:8-demo-image-update-block-buster"}
           imagePullPolicy: Always
           resources:
             requests:
